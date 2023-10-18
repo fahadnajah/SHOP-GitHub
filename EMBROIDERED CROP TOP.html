@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="JavaScript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+    <title>Shop | New Collection</title>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="bg" style="background-color: white">
+        <div style="background-color:white" class="navbar">
+            <div class="brand">
+                <a class="blink" href="Home.html"><font color="black"><p>shop</p></font></a>
+            </div>
+            <!--Basket-->
+            <a class="basket" href="Bag.html"><svg class="basket" fill="black" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M13.5 21c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5m0-2c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5 1.5-.672 1.5-1.5-.672-1.5-1.5-1.5m-6 2c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5m0-2c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5 1.5-.672 1.5-1.5-.672-1.5-1.5-1.5m16.5-16h-2.964l-3.642 15h-13.321l-4.073-13.003h19.522l.728-2.997h3.75v1zm-22.581 2.997l3.393 11.003h11.794l2.674-11.003h-17.861z"></path></svg></a>
+            <!--End Basket-->
+            <!--Search mobile-->
+            <a class="srch-icon" href="Search.html"><svg class="srch-icon" fill="black" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"></path></svg></a>
+            <!--End Search mobile-->
+
+            <nav>
+                <font color="black">
+                    <label for="drop" class="toggle1">
+                        <div class="all-btn">
+                            <div class="menu-btn-1" onclick="menuBtnFunction(this)">
+                                <span></span>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="checkbox" id="drop">
+                    <ul class="menu">
+                        <li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-1" class="toggle">shop</label>
+                            <a class="drp-shop navleft" href="#">Shop</a>
+                            <input type="checkbox" id="drop-1">
+                            <ul class="drop">
+                                <li class="">
+                                    <a href="ShopAll.html">shop all</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="Tops.html">tops</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="Bottoms.html">bottoms</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="navleft br"><a href="LookBook.html">LookBook</a></li>
+                        <li class="navright no1"><a href="Bag.html">Bag</a></li>
+                        <li><br></li>
+                        <li><br></li>
+                        <li><hr></li>
+                        <li class="navright acc"><a href="Account.html">Account</a></li>
+                        <li class="navright no2"><a href="Search.html">Search</a></li>
+                    </ul>
+                </font>
+            </nav>
+        </div>
+    </div>
+    <!--End Header-->
+    <!--Product-->
+
+
+    <div class="product-grid">
+        <div class="product">
+            <swiper-container class="mySwiper" navigation="true">
+        <swiper-slide><img src="images/clothes/tops/Top 5/Full outfit.jpg"></swiper-slide>
+        <swiper-slide><img src="images/clothes/tops/Top 5/Back outfit.jpg"></swiper-slide>
+        <swiper-slide><img src="images/clothes/tops/Top 5/Back.jpg"></swiper-slide>
+        <swiper-slide><img src="images/clothes/tops/Top 5/Front zoomed.jpg"></swiper-slide>
+        <swiper-slide><img src="images/clothes/tops/Top 5/Front.jpg"></swiper-slide>
+        <swiper-slide><img src="images/clothes/tops/Top 5/Top half outfit.jpg"></swiper-slide>
+    </swiper-container>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+        </div>
+        <br>
+        <div class="contain">
+            <div class="in">
+                <p class="dsc">Embroidered Crop Top<br>51.00 EUR <br><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante convallis, cursus dolor non, suscipit dui. Fusce maximus lectus id mi faucibus congue. Vivamus placerat id magna ut porttitor. Vivamus faucibus dolor vel felis venenatis, sit amet iaculis lectus facilisis. Nunc ac dictum sem, sed luctus leo. Aliquam tristique justo et ultrices tempor.</p>
+            </div>
+            <div class="size in">
+                <p>Size:</p>
+                <br>
+                <form class="add-to-cart-form" data-name="Embroidered Crop Top" data-price="51.0" data-imageSrc='images/clothes/tops/Top 5/Full outfit.jpg'>
+                    <select required="">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <input type="submit" id="add-button-1" value="ADD">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!--End Product-->
+
+
+
+
+    <br>
+    <!--Footer-->
+    <br>
+    <hr>
+    <footer>
+        <div class="footer-interior">
+            <form class="form-footer">
+                <label class="join">Join the Conversation</label>
+                <br>
+                <input class="email" type="email" name="email" placeholder="Email Address" required="">
+                <br>
+                <input class="send" type="submit" value="Submit">
+            </form>
+
+            <ul class="nav-interior type-a">
+
+                <li class="nav-item ">
+                    <a href="Contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item ">
+                    <a href="About.html">About</a>
+                </li>
+
+                <li class="nav-item ">
+                    <a href="#" target="_blank">Social</a>
+                </li>
+            </ul>
+            <br>
+            <p class="copywrite">© pictures were taken from FEAR OF GOD, DIOR, H&amp;M, and ZARA</p>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+
+
+</body>
+</html>
